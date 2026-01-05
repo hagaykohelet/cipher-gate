@@ -1,4 +1,4 @@
-export default function checkRequest(req, res, next) {
+export default function check(req, res, next) {
     const username = req.headers.username
     const password = req.headers.password
     if (!password || !username) {
